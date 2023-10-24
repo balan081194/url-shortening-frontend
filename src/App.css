@@ -1,0 +1,34 @@
+.App{
+    width:50%;
+    height: 500px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.input {
+    width: 60%;
+    height: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+}
+.btn{
+    width: 10%;
+    height: 30px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 10px;
+}
