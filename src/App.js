@@ -6,7 +6,7 @@ function App() {
   const [shortURL, setShortURL] = useState('');
 
   const shortenUrl = async () => {
-    const response = await fetch('http://localhost:5000/api/v2/shorten', {
+    const response = await fetch('https://url-shortening-backend.vercel.app/api/v2/shorten', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ longURL }),
